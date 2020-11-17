@@ -7,7 +7,7 @@ Fitur:
 3.	Admin dapat melihat logs yang berhasil di adjustment.
 
 Cara penggunaan: 
-1.	Import database 
+1.	Import database inventory
 2.	Di dalam Postman masukan url http://localhost:3000/product/klikdaily/stocks
 untuk melihat semua data barang beserta stock yang tersedia menggunakan method GET
 3.	Untuk melakukan adjustment masukan url http://localhost:3000/product/klikdaily/adjustment dengan method POST. Ketika adjustment berhasil dibuat maka table logs akan terisi otomatis dan stock product akan terupdate.
